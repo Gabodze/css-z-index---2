@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(./fonts/Inter-Bold.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.image-container {
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.img1, .img2, .img3 {
+    display: inline-block;
+
+  
+}
+
+.img1 {
+    width: 435px;
+    height: 254px;
+    z-index: 1;
+}
+
+.img2 {
+    width: 558px;
+    height: 254px;
+    z-index: 0;
+}
+
+.img3 {
+    width: 421px;
+    height: 254px;
+    z-index: 1;
+}
+
+h5{
+    font-family: 'Inter';
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    z-index: 2;
+    position: absolute;
+    top: 195px;
+  
+}
+
